@@ -77,9 +77,9 @@ public abstract class MyBaseActivity extends RxFragmentActivity {
         mHandler.removeCallbacksAndMessages(null);
     }
 
-    protected void quitActivity() {
-        sendBroadcast(new Intent(ConstantUtils.Action.ACTION_QUIT));
-    }
+//    protected void quitActivity() {
+//        sendBroadcast(new Intent(ConstantUtils.Action.ACTION_QUIT));
+//    }
 
     private void initLoading() {
         AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
