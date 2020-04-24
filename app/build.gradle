@@ -45,4 +45,10 @@ dependencies {
     implementation 'com.jakewharton:butterknife:10.2.1' //注解绑定控件
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'//辅助插件
 
+    implementation 'io.reactivex:rxjava:1.0.16'
+    implementation 'com.trello:rxlifecycle:0.3.0'
+    implementation 'com.trello:rxlifecycle-components:0.3.0'
+    //handler
+    implementation 'com.badoo.mobile:android-weak-handler:1.1'
+
 }
